@@ -61,6 +61,9 @@ Encore
     .copyFiles({
         from: './assets/img',
          to: 'img/[path][name].[hash:8].[ext]'
+
+        // only copy files matching this pattern
+        //pattern: /\.(png|jpg|jpeg)$/
     })
 
     // uncomment if you use TypeScript
