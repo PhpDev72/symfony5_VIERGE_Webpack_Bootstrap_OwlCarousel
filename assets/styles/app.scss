@@ -1,5 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 @import "shared/_navbar";
+@import "shared/_carousel";
+@import "shared/_banner";
+@import "shared/_footer";
+
+:root {
+    --navColor: #fff;
+    --footColor: #000;
+}
 
 .main_contain{
 
